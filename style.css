@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-color: black;
+  color:rgb(0,255,0);
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#info{
+  margin: 60px;
+}
+
+h1{
+  font-weight: normal;
+}
+
+h2{
+   font-weight: normal;
+}
+/*styling for the return arrow*/
+#return, #return:visited{
+  background:white;
+  color: black;
+  font-size: 18;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+  text-decoration: none;
+}
+#return:hover{
+  background:black;
+  color: white;
+}
+
+
+/* style the slider */
+input[type="range"]{
+  appearance: none; /* Override default look */
+  -webkit-appearance: none; /* Override default look */
+  height: 20px;
+  width: 270px;
+  background: rgb(58,73,54);
+  border: 1px solid rgb(0,255,0); 
+}
+       
+/* style the slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+input[type="range"]::-webkit-slider-thumb {
+ -webkit-appearance: none; /* Override default look */
+ appearance: none; /* Override default look */
+ width: 40px; /* handle width */
+ height: 20px; /* handle height */
+ background: rgb(0,255,0); /* handle color*/
+ border-radius: 0%; /* make the handle round */
+ cursor: pointer; /* cursor on hover */
+}
+
+button {
+  height: 50px;
+  width: 130px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(37,37,73) ;
+  /* use the custom font */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: rgb(0,255,0);
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid rgb(0,255,0); 
+}
+
