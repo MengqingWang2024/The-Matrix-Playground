@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background-color: black;
+  color:rgb(0,255,0);
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#info{
+  margin: 60px;
+}
+
+h1{
+  font-weight: normal;
+}
+
+h2{
+   font-weight: normal;
+}
+
+
+/* style the slider */
+input[type="range"]{
+  appearance: none; /* Override default look */
+  -webkit-appearance: none; /* Override default look */
+  height: 20px;
+  width: 270px;
+  background: rgb(54,77,74);
+  border: 1px solid rgb(0,255,0); 
+}
+       
+/* style the slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+input[type="range"]::-webkit-slider-thumb {
+ -webkit-appearance: none; /* Override default look */
+ appearance: none; /* Override default look */
+ width: 40px; /* handle width */
+ height: 20px; /* handle height */
+ background: rgb(0,255,0); /* handle color*/
+ border-radius: 0%; /* make the handle round */
+ cursor: pointer; /* cursor on hover */
+}
+
+
+
+
+button {
+  height: 30px;
+  width: 30px;
+  border: 1px solid rgb(0, 255, 0); /* 初始状态的边框 */
+  background-color: black; /* 初始状态的背景色 */
+  /* use the custom font */
+  color: rgb(0, 255, 0);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s; /* 添加过渡效果 */
+}
+
+button:hover {
+  background-color: rgb(0, 255, 0); /* 悬停状态的背景色 */
+}
+
+button:active {
+  background-color: rgb(0, 255, 0); /* 按下状态的背景色 */
+  border-color: rgb(0, 255, 0); /* 按下状态的边框颜色 */
+}
