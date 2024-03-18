@@ -200,7 +200,7 @@ function draw() {
   stroke(0);
   noFill()
   strokeWeight(80)
-  rect(0-30,0,windowWidth+18,windowHeight-30);
+  rect(0-30,0,windowWidth+50,windowHeight-30);
   //line(0,windowHeight,windowWidth,windowHeight)
   pop();
 
