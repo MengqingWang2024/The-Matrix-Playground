@@ -73,7 +73,7 @@ function setup() {
     amplitudeLabel.position(150,10);
     
     //滑动4
-    gapSlider = createSlider(-100,300,random(-100,300));
+    gapSlider = createSlider(0,300,random(0,300));
     gapSlider.position(150,402);
     gapSlider.size(180,17);
     gapLabel = createP("");
