@@ -168,10 +168,10 @@ function draw() {
     //ellipse(x - 100, y, 10);
     //ellipse(x - 200, y, 10);
     stroke(0, c, 0);
-    beginShape();
-    vertex(x + 100, y);
-    vertex(x + 200, y);
-    endShape();
+    //beginShape();
+    //vertex(x + 100, y);
+    //vertex(x + 200, y);
+    //endShape();
   }
   //move the wave along by changing phase
   let speed = map(mouseX, 0, width, 0, 0.05);
